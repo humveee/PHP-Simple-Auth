@@ -1,0 +1,6 @@
+USERS TABLE :
+CREATE TABLE `auth`.`users` (`uid` INT(255) NOT NULL AUTO_INCREMENT , `username` VARCHAR(255) NOT NULL , `password` VARCHAR(255) NOT NULL , `hwid` VARCHAR(255) NOT NULL , PRIMARY KEY (`uid`)) ENGINE = InnoDB;
+
+
+LICENSES TABLE :
+CREATE TABLE `auth`.`licenses` (`license` VARCHAR(255) NOT NULL ) ENGINE = InnoDB;
